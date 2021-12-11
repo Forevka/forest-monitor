@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="title" @click="router.push('/')">
-      Vite2.x + Vue3.x + TypeScript Starter
+      Cистема моніторингу стану лісових екосистем Львівської області
     </div>
     <div class="go-github" @click="goGitHub">
       <i class="icon el-icon-s-promotion"></i> GitHub

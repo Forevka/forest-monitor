@@ -1,7 +1,6 @@
 <template>
   <div class="home-container page-container">
-    <img class="vue-element-plus-logo" alt="Vue logo" src="../assets/logo.svg" />
-    <div class="page-title">Cистема моніторингу стану лісових екосистем Львівської області</div>
+
   </div>
 </template>
 
@@ -9,14 +8,14 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'Home'
+  name: 'News'
 })
 </script>
 
 <style scoped lang="stylus">
 .home-container {
   .vue-element-plus-logo {
-    height: 50%
+    width 50%
   }
 }
 </style>

@@ -3,6 +3,7 @@ import Home from '@/views/Home.vue'
 import Vuex from '@/views/Vuex.vue'
 import Test from '@/views/Test.vue'
 import ForestMonitor from '@/views/ForestMonitor.vue';
+import News from '@/views/News.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -24,6 +25,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/forest-monitor',
     name: 'ForestMonitor',
     component: ForestMonitor
+  },
+  {
+    path: '/news',
+    name: 'News',
+    component: News
   }
 ]
 
