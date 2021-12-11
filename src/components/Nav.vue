@@ -43,9 +43,9 @@ export default defineComponent({
           path: '/axios'
         },
         {
-          name: 'Test',
+          name: 'Моніторинг лісу',
           isActive: false,
-          path: '/test'
+          path: '/forest-monitor'
         }
       ],
 
