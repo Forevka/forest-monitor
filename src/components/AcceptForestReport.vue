@@ -6,26 +6,23 @@
     <div class="modal__content">
       <slot :params="params"></slot>
     </div>
-    <input v-model="description">
+    <el-input v-model="description"/>
     <div class="modal__action">
-      <button @click="$emit('confirm', close)">confirm</button>
-      <button @click="$emit('cancel', close)">cancel</button>
+      <el-button @click="$emit('confirm', close)">confirm</el-button>
+      <el-button @click="$emit('cancel', close)">cancel</el-button>
     </div>
-    <button class="modal__close" @click="close">
-        
-    </button>
   </vue-final-modal>
 </template>
 
 <script>
-import {watchEffect} from 'vue'
+import {watchEffect, ref} from 'vue'
 
 export default {
   name: 'AcceptForestReport',
   inheritAttrs: false,
   emits: ['confirm', 'cancel', 'descriptionChanges'],
   data: () => ({
-      description: ""
+      description: ref('')
   }),
   beforeMount() {
       watchEffect(() => {

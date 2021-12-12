@@ -9,6 +9,8 @@ import '@/style/leaflet.draw.css'
 import vfmPlugin from 'vue-final-modal'
 import '@/common/leaflet.js'
 import '@/common/leaflet.draw.js'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 
 const app = createApp(App)
-styleImport(app).use(router).use(store, key).use(vfmPlugin).mount('#app')
+styleImport(app).use(router).use(store, key).use(vfmPlugin).use(ElementPlus).mount('#app')

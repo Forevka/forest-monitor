@@ -52,6 +52,7 @@ $left-side-width = 120px
   display flex
   flex-direction column
   justify-content space-between
+  overflow-y hidden
 
   .top {
     position relative
@@ -91,6 +92,7 @@ $left-side-width = 120px
         border-radius 5px
         box-sizing border-box
         padding 10px
+        overflow-y scroll
       }
     }
   }

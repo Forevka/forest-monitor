@@ -1,5 +1,5 @@
 <template>
-  <div id="map" style="height: 75vh; width: 100%;">
+  <div id="map" style="height: 100%; width: 100%;">
 
   </div>
   <AcceptForestReport v-model="show" @confirm="confirm" @cancel="cancel" @descriptionChanges="descriptionChanges">
@@ -96,6 +96,7 @@ export default {
           let m = null
           try {
             m = L.marker([Number(x.lat), Number(x.lon)], {icon: greenIcon})
+            m.bindPopup(x.city)
           }
           catch (err) {console.log(err)}
           if (m) return m;
