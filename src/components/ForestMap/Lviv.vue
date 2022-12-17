@@ -4,7 +4,7 @@
   </div>
   <AcceptForestReport v-model="show" @confirm="confirm" @cancel="cancel" @descriptionChanges="descriptionChanges">
     <template v-slot:title>Підтвердіть дію</template>
-    <p>Ви додаєте нову ділянку</p>
+    <p>Ви додаєте нове водоймище</p>
   </AcceptForestReport>
 
   <!--<div style="height: 75vh; width: 100%;">

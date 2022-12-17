@@ -38,9 +38,9 @@ export default defineComponent({
           path: '/news'
         },
         {
-          name: 'Моніторинг лісу',
+          name: 'Моніторинг водоймищ',
           isActive: false,
-          path: '/forest-monitor'
+          path: '/water-monitor'
         }
       ],
 

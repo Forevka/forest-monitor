@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="title" @click="router.push('/')">
-      Cистема моніторингу стану лісових екосистем Львівської області
+      Cистема моніторингу стану параметрів водойм
     </div>
     <div class="go-github" @click="goGitHub">
       <i class="icon el-icon-s-promotion"></i> GitHub
